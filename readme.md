@@ -28,7 +28,7 @@ This project automates the provisioning of a highly available **3-tier architect
 
 ## 📁 Project Structure
 
-```text
+```
 .
 ├── Jenkinsfile                 # CI/CD pipeline definition
 ├── main.tf                    # Terraform entry point
@@ -41,17 +41,18 @@ This project automates the provisioning of a highly available **3-tier architect
 ├── data.tf                    # Data sources (e.g., AMI lookup)
 ├── local.tf                   # Local values
 ├── aws-architecture-diagram.png
-
+```
+```
 🛠️ Setup Instructions
 ✅ Prerequisites
 
-    AWS CLI configured (aws configure)
-
-    Terraform installed (v1.3+)
-
-    Jenkins running (can be local or on EC2)
-
-    Git & GitHub repo for storing code
+        AWS CLI configured (aws configure)
+    
+        Terraform installed (v1.3+)
+    
+        Jenkins running (can be local or on EC2)
+    
+        Git & GitHub repo for storing code
 
 🚀 Deploy Infrastructure
 ```
@@ -105,8 +106,6 @@ Once deployed, Terraform provides outputs such as:
 🙌 Contributing
 
 Feel free to fork, improve and submit a pull request. Suggestions for improvement or optimization are welcome.
-📄 License
 
-This project is licensed under the MIT License.
 
 
