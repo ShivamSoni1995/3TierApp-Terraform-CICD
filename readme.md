@@ -55,17 +55,17 @@ This project automates the provisioning of a highly available **3-tier architect
 
 🚀 Deploy Infrastructure
 ```
-# Initialize Terraform
+Initialize Terraform
 terraform init
 
-# Format & Validate
+Format & Validate
 terraform fmt
 terraform validate
 
-# Preview changes
+Preview changes
 terraform plan -out=tfplan
 
-# Apply the infrastructure
+Apply the infrastructure
 terraform apply tfplan
 ```
 
