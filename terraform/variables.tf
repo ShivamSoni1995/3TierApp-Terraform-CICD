@@ -11,9 +11,7 @@ variable "project" {
   default = "devops-101"
 }
 
-variable "contact" {
-  default = "akhileshmishra@gmail.com"
-}
+
 
 variable "vpc_cidr" {
   type    = string
